@@ -1,0 +1,25 @@
+{
+  "name": "media-device-settings",
+  "version": "1.0.0",
+  "description": "using the MediaDevices API to change settings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlaskey/media-device-settings.git"
+  },
+  "keywords": [
+    "MediaDevices"
+  ],
+  "author": "Richard Laskey <rlaskey@outlook.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/rlaskey/media-device-settings/issues"
+  },
+  "homepage": "https://github.com/rlaskey/media-device-settings#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
