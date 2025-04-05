@@ -1,4 +1,8 @@
 node_modules
 
+# can be ditched at some point.
+bun.lock
+package-lock.json
+
 # vim
 *.sw?

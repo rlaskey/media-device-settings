@@ -95,7 +95,9 @@ const loadControls = () => {
 
 			const descriptionDiv = document.createElement('div');
 			descriptionDiv.classList.add('hint');
-			descriptionDiv.append(document.createTextNode(description(capability)));
+			descriptionDiv.append(
+				document.createTextNode(description(capability))
+			);
 			wrapper.append(descriptionDiv);
 		}
 
@@ -121,5 +123,6 @@ const getDevices = () => {
 };
 
 getDevices();
-document.querySelector('#refreshDeviceList').addEventListener('click', getDevices);
+document.querySelector('#refreshDeviceList')
+	.addEventListener('click', getDevices);
 document.querySelector('#clearErrors').addEventListener('click', clearErrors);

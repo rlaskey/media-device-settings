@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/rlaskey/media-device-settings#readme",
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0"
   }
 }
